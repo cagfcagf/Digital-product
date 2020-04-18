@@ -1,0 +1,151 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+nav {
+  display: flex;
+  background-color: #7ACC2D;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image:url("../images/curve.png");
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+
+
+}
+
+
+.product .content {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+
+.product {
+  padding: 10px;
+  margin-top: -240px;
+}
+
+.img_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: #7ACC2D;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover {
+  background-color: #5e9e22;
+}
+
+.middle {
+  height: 350px;
+  padding: 0 15% 0 15%;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  }
+
+.b1, .b2, .b3 {
+  height: 113px;
+}
+
+.propiedades{
+ padding: 50px;
+}
+
+.img_propiedades {
+  text-align: center;
+}
+
+.middle p {
+  text-align: center;
+}
+
+.middle h1 {
+  text-align: center;
+}
+
+.slice {
+  display: flex;
+  padding: 20px 15% 20px 15%;
+}
+
+.persons {
+  padding: 10px;
+  box-shadow:0 0 1px black;
+  border: 5px;
+}
+
+.mentions .titulomenciones {
+  text-align: center;
+  font-size: 35px;
+}
+
+.p1, .p2, .p3, .p4 {
+  width: 100%;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-4 {
+  width: 33.333333333%
+  display: flex;
+}
+
+.col-8 {
+  width: 66.666666666%
+  display: flex;
+}
+
+.col-4 img {
+width: 50%;
+}
